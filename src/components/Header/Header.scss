@@ -1,0 +1,11 @@
+$root: '.header';
+
+#{$root} {
+  background-color: #74b9ff;
+  height: 60px;
+
+  .logo {
+    font-size: 40px;
+    color: #fff;
+  }
+}

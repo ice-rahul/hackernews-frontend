@@ -1,0 +1,15 @@
+$root: '.Button';
+
+#{$root} {
+  height: 40px;
+  font-size: 18px;
+  padding: 0 20px;
+  min-width: 150px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}

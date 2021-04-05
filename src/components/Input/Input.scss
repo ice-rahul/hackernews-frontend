@@ -1,0 +1,13 @@
+$root: '.Input';
+
+#{$root} {
+  width: 400px;
+  height: 40px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  &:focus {
+    outline: none;
+  }
+}
