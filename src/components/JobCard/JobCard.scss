@@ -1,0 +1,24 @@
+$root: '.JobCard';
+
+#{$root} {
+  min-width: 300px;
+  min-height: 80px;
+  border-radius: 5px;
+  background-color: rgba(223, 230, 233, 0.49);
+  padding: 8px 12px;
+  font-size: 12px;
+  margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &-left {
+    &__top {
+      .title {
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
+}

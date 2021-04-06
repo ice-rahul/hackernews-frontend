@@ -1,0 +1,32 @@
+$root: '.Main';
+
+#{$root} {
+  &-content {
+    margin-top: 60px;
+
+    &__illustration {
+      padding-top: 60px;
+      margin-bottom: 60px;
+      &-title {
+        padding-top: 40px;
+        .title {
+          font-size: 88px;
+          font-weight: bold;
+          font-family: 'Courier New', Courier, monospace;
+        }
+        .tagline {
+          font-size: 32px;
+        }
+      }
+    }
+
+    &__cardsJobs {
+      &-cards {
+        width: calc(2 / 3 * 100%);
+      }
+    }
+
+    &__jobList {
+    }
+  }
+}

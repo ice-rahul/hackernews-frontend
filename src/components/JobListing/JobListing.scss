@@ -1,0 +1,19 @@
+$root: '.JobListing';
+
+#{$root} {
+  margin-bottom: 40px;
+  &-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+
+  &-container {
+    min-width: 366px;
+    max-height: 430px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: scroll;
+    padding: 16px;
+  }
+}

@@ -1,8 +1,12 @@
-$root: '.header';
+$root: '.Header';
 
 #{$root} {
   background-color: #74b9ff;
   height: 60px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
 
   .logo {
     font-size: 40px;

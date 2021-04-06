@@ -4,6 +4,12 @@ import Main from './Main';
 
 import './../global/styles/common.scss';
 
-const App = () => <Main />;
+const App = () => {
+  return (
+    <div className="container">
+      <Main />
+    </div>
+  );
+};
 
 export default App;
